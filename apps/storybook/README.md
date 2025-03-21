@@ -9,5 +9,5 @@ pnpm install
 ### 2. 웹 앱 실행
 
 ```sh
-pnpm dev
+pnpm storybook
 ```
