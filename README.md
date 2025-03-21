@@ -29,8 +29,14 @@ TanStack Query (데이터 상태 관리)
 Tailwind CSS (스타일링)
 ```
 
-### 1️. 패키지 설치
+패키지 설치
 
 ```sh
 pnpm install
+```
+
+Lint 확인
+
+```sh
+pnpm lint
 ```
