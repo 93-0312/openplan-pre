@@ -52,7 +52,7 @@ const MainPage = () => {
           <Button
             text="다음"
             onClick={() => handleNextClick()}
-            className="w-[154px] h-12 bg-black text-white rounded-lg hover:bg-gray-800 transition text-sm md:text-base lg:text-lg"
+            className="w-[335px] h-12 bg-black text-white rounded-lg hover:bg-gray-800 transition text-sm md:text-base cursor-pointer"
           />
           <div
             className={`absolute right-[-20px] top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-black border-t-transparent rounded-full animate-spin transition-opacity duration-300 ${

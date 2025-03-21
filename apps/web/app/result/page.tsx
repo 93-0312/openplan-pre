@@ -62,7 +62,7 @@ const ResultPage = () => {
           <Button
             text="이전"
             onClick={() => router.push("/")}
-            className="w-[154px] h-12 bg-black text-white rounded-lg hover:bg-gray-800 transition text-sm md:text-base lg:text-lg"
+            className="w-full tb:w-[154px] h-12 bg-black text-white rounded-lg hover:bg-gray-800 transition text-sm md:text-base lg:text-lg cursor-pointer"
           />
         </div>
       </div>
