@@ -5,7 +5,7 @@ interface ImageCardProps {
   imageUrl?: string;
 }
 
-const ImageCard: React.FC<ImageCardProps> = ({ imageUrl }) => {
+const ImageCard = ({ imageUrl }: ImageCardProps) => {
   return (
     <>
       {imageUrl ? (
@@ -14,6 +14,8 @@ const ImageCard: React.FC<ImageCardProps> = ({ imageUrl }) => {
             src={imageUrl}
             alt="Preview"
             className="w-full h-auto object-cover rounded-2xl overflow-hidden"
+            width={"800"}
+            height={"800"}
           />
         </div>
       ) : (
